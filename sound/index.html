@@ -1,0 +1,50 @@
+<!doctype html> 
+<html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Marble Madness (MIT Project)</title>
+    <style>
+      body { margin: 0; } canvas { width: 100%;
+      height: 100% }
+    </style>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="maincontent">
+		<div id="info">
+			WASD to Move. Space to jump. Drag to rotate camera.
+		</div>	
+		<div id="stats">
+      <label style="font-size:50px;color:green;" id="score">00</label>
+
+           <!--- <label style="font-size:50px;color:green;" id="minutes">00</label>:<label style="font-size:50px;color:green;" id="seconds">00</label>-->
+            <!--<li><p id="current">Current Height</p></li>*/
+            <li><p id="highest">Best Height</p></li>
+            <li><p id="fps">FPS</p></li>-->
+		</div>
+    <div class="topright">
+        <input type="button" value="Toggle Detail" id="snow">
+        <input type="button" value="Toggle Lights" id="light">
+        <input type="button" value="Score" id="resetHS">
+    </div>
+    <div class="toplowerright">
+        <input type="button" value="Restart Game" id="restart">
+    </div>
+    <div class="top"><!--<p id="cheats">CHEATS ENABLED</p>--></div>
+
+      
+	    <script src="js/three.js"></script>
+	    <script src="js/SourceLoader.js"></script>
+	    <script src="js/OrbitControls.js"></script>
+	    <script src="js/Stats.js"></script>
+      <script src="js/KeyboardState.js"></script> <!-- By Jerome Etienne: http://jetienne.com/ -->
+      <script src="timer.js"></script>
+	    <script src="GamePlay.js"></script>
+	    <script src="PlatformCubes.js"></script>
+	    <script src="Particles.js"></script>
+	   
+		<script src="marblemadness.js"></script>
+    </div>
+</body>
+</html>

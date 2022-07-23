@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+    background-image: url("images/sky.png");
+    background-size: cover; 
+    
+}
+.frame {
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    border: 0px transparent;
+    /*-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-image: url("images/sky.png");
+    background-size: contain, cover;*/
+    
+    position: relative;
+    top: -5rem;
+    z-index: 0;
+}
+
+h1 {
+  font-size: calc(10px + 10vh);
+  line-height: calc(10px + 10vh);
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0px 0px 50px transparent;
+  color: #163c68;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  animation: blink 3s infinite;
+  -webkit-animation: blink 8s infinite;
+}
+
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #029ffa, 0 0 15px #029ffa, 0 0 20px #029ffa, 0 0 40px #029ffa, 0 0 60px #008cff, 0 0 10px #008cff, 0 0 98px #008cff;
+    color: #fff;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #6d5626, 0 0 15px #6d5626, 0 0 20px #6d5626, 0 0 40px #6d5626, 0 0 60px #6d5626, 0 0 10px #6d5626, 0 0 98px #6d5626;
+    color: #000000;
+  }
+}
+
+
+img {
+    height: 200px;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+.button {
+ text-align: middle;
+ margin-top: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 80px;
+padding-right: 80px;
+background-color: transparent;
+-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0);
+text-shadow: 1px 1px 1px transparent;
+border: 3px double #423112;
+border-radius: 3px;
+color: #ffffff;
+font-family: 'Luckiest Guy', cursive;
+font-size: 16px;
+}
+.button:hover {
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, turquoise 0px 0px 30px, turquoise 0px 0px 40px, turquoise 0px 0px 50px, turquoise 0px 0px 75px;
+    cursor: pointer;
+}
+.btn-group {
+    margin-top: 80px;
+}
