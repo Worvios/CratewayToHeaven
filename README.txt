@@ -1,6 +1,5 @@
 MIT Project : CrateWay to Heaven
-Team: 
-Rabi Chbibi, Armin Weigold
+Rabi Chbibi
 TH Deggendorf
 
 
